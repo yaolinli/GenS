@@ -1,0 +1,10 @@
+# Model Constants
+IGNORE_INDEX = -100
+IMAGE_TOKEN_INDEX = 9
+DEFAULT_IMAGE_TOKEN = "<|img|>"
+DEFAULT_IMAGE_PATCH_TOKEN = "<im_patch>"
+DEFAULT_IM_START_TOKEN = "<im_start>"
+DEFAULT_IM_END_TOKEN = "<im_end>"
+
+DEFAULT_IMAGE_START_TOKEN = "<fim_prefix>"
+DEFAULT_IMAGE_END_TOKEN = "<fim_suffix>"
