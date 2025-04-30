@@ -7,7 +7,7 @@
 
 ## 📰 News
 
-- **[2025-04-30]** We open-sourced GenS(Aria-based) model, code, and dataset! Try it in your long video QA projects requiring fewer but more informative frame sampling.
+- **[2025-04-30]** We open-sourced GenS(Aria-based) model, code, and dataset! Try it in your long video QA projects requiring fewer but more informative frames.
 
 - **[2025-03-08]** Our paper "Generative Frame Sampler for Long Video Understanding" is now available on arXiv.
 
