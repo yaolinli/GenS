@@ -4,11 +4,12 @@
 <p align="center">
 🔗 <a href="https://generative-sampler.github.io/" target="_blank">Project Page</a> · 📖 <a href="https://arxiv.org/abs/2503.09146" target="_blank">Paper</a> · ⭐ <a href="https://github.com/yaolinli/GenS" target="_blank">GitHub</a> · 📊 <a href="https://huggingface.co/datasets/yaolily/GenS-Video-150K" target="_blank">Dataset</a> · 🤗 <a href="https://huggingface.co/yaolily/GenS" target="_blank">Checkpoints</a>
 </p>
-📰 **News**
 
-[2025-04-30] We open-sourced GenS(Aria-based) model, code, and dataset! Try it in your long video QA projects requiring fewer but more informative frame sampling.
+## 📰 News
 
-[2025-03-08] Our paper "Generative Frame Sampler for Long Video Understanding" is now available on arXiv.
+- **[2025-04-30]** We open-sourced GenS(Aria-based) model, code, and dataset! Try it in your long video QA projects requiring fewer but more informative frame sampling.
+
+- **[2025-03-08]** Our paper "Generative Frame Sampler for Long Video Understanding" is now available on arXiv.
 
 ## Introduction
 
@@ -44,7 +45,7 @@ GenS significantly boosts the performance of various VideoQA models, achieving S
 ## Quick Start
 
 ### Installation
-```
+```bash
 conda create -n gens python=3.10
 conda activate gens
 pip install torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu121
@@ -59,7 +60,7 @@ python inference.py
 ### Example with Custom Video and Question
 
 You can specify your own video frames path and question as follows:
-```
+```bash
 # Example usage
 if __name__ == "__main__":
     # Load model components
@@ -81,6 +82,7 @@ if __name__ == "__main__":
     print(f"Question: {question}")
     print(f"Relevant frames with scores: {result}")
 ```
+
 **Output Format:**
 The model returns relevance scores for frames in JSON format
 Example output: `{"15": 5, "16": 4, "45-46": 3, ...}` means frame indexing 15 has relevance score 5, frame indexing 16 has relevance score 4, frame indexing 45-46 has relevance score 3, ...
